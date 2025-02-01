@@ -79,7 +79,7 @@
     }
 
     #other{
-        padding-top: 630px;
+        padding-top: 430px;
         background-color: #50434B;
     }
 
@@ -101,6 +101,10 @@
     #pfgpic{
         height: 390px;
     }
+    
+    #other-content{
+        padding-top: 200px;
+    }
 }
 
 @media (max-width: 599px){
@@ -119,7 +123,7 @@
 
 @media (max-width: 699px) and (min-width: 600px){
     .short-text{
-        margin-top: 130px;
+        margin-top: 50px;
     }
     #ft-bar{
         position: relative;
@@ -132,6 +136,16 @@
         position: relative;
         bottom: 60px;
     }
+    
+    #featured{
+        font-size: 45px !important;
+    }
+
+    #other{
+        position: relative;
+        bottom: 20px;
+    }
+
 }
 
 @media (max-width: 965px){
@@ -372,7 +386,7 @@ li{
 
 #featured{
     margin: 0px;
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
     padding-top: 30px;
     font-weight: bold;
